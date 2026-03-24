@@ -120,11 +120,11 @@ def fetch_twitter_posts(username, limit=100):
     try:
         # Twitter API v2 credentials
         client = tweepy.Client(
-            bearer_token="AAAAAAAAAAAAAAAAAAAAAAoN1QEAAAAA20HPtrL1eYqFk86sYW5gfZyXFp4%3DcrMbZLM1MvcgBXtA1RUtXz6WPFz2YAx4QGc4fmWEKxWiVuPo7n",  
-            consumer_key="jXmK3owxloyC6s4O88RDnxzQS",        
-            consumer_secret="AG33ykjOATY33LBtN060Aok9slx8EkHRruGMmyyoHiRPl24fMp",  
-            access_token="1922207421444874240-lhTpyMTGIuM7E1JhkjDRkNbKG5dhh9",   
-            access_token_secret="jtQaCOxsHcZUV7UmoVB9YX01pQ9mragjBX34aGobWOXE1"  
+            bearer_token="your_token",  
+            consumer_key="your_token",        
+            consumer_secret="your_token",  
+            access_token="your_token",   
+            access_token_secret="your_token"  
         )
         
         # Get user ID from username
