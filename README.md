@@ -106,25 +106,6 @@ Then open:
 http://localhost:8501
 ```
 
----
-
-##  Environment Variables (IMPORTANT)
-
- Do NOT hardcode API keys in your code.
-
-Create a `.env` file:
-
-```env
-TWITTER_BEARER_TOKEN=your_token
-TWITTER_API_KEY=your_key
-TWITTER_API_SECRET=your_secret
-TWITTER_ACCESS_TOKEN=your_access_token
-TWITTER_ACCESS_SECRET=your_access_secret
-
-REDDIT_CLIENT_ID=your_client_id
-REDDIT_CLIENT_SECRET=your_secret
-REDDIT_USER_AGENT=your_user_agent
-```
 
 ---
 
